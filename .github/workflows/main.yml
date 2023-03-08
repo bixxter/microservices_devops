@@ -29,7 +29,7 @@ jobs:
         host: 161.35.69.148
         username: root
         password: ${{secrets.PASSWORD}}
-        key: ${{SSH_KEY}}
+        key: ${{secrets.SSH_KEY}}
         port: 22
         script: |
           cd /root/microservices
