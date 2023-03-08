@@ -32,7 +32,7 @@ jobs:
         key: ${{secrets.SSH_KEY}}
         port: 22
         script: |
-          cd /root/microservices
+          cd /microservices_devops
           source venv/bin/activate
           git pull origin main
           pip install -r requirements.txt
